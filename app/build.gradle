@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.0"
+
+    defaultConfig {
+        applicationId "tgo1014.projectx"
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    //QR Code
+    //about lib
+    compile('com.mikepenz:aboutlibraries:5.8.1@aar') {
+        transitive = true
+    }
+    // Realm
+    // RecyclerView
+    // CardView
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.google.zxing:core:3.3.0'
+    compile 'io.realm:realm-android:0.82.1'
+    compile 'com.android.support:recyclerview-v7:24.2.1'
+    compile 'com.android.support:cardview-v7:24.2.1'
+    compile 'com.google.zxing:android-core:3.3.0'
+    compile 'it.auron:mecard-parser:1.0.9'
+    compile 'me.dm7.barcodescanner:zxing:1.9.3'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+}

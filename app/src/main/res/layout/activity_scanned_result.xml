@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#BFFF80"
+    tools:context="tgo1014.projectx.GeneratorActivity">
+
+    <LinearLayout
+        android:id="@+id/llInputFields"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/editTextoQR"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/textview_background"
+            android:inputType="textPersonName"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical"
+            android:textColor="#000"
+            android:hint="Name"
+            android:textSize="18sp"
+            android:textAllCaps="false" />
+        <TextView
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/textview_background"
+            android:inputType="textPersonName"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="8dp"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:hint="Address"
+            android:textSize="18sp"
+            android:textAllCaps="false" />
+        <TextView
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/textview_background"
+            android:inputType="textPersonName"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            android:hint="Email"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textAllCaps="false" />
+
+
+        <TextView
+            android:id="@+id/etPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/textview_background"
+            android:inputType="textPersonName"
+            android:fontFamily="sans-serif"
+            android:hint="Phone Number"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:textColor="#000"
+            android:layout_marginTop="8dp"
+            android:textAllCaps="false"
+            android:drawableRight="@drawable/iconsphone"
+            />
+
+        <TextView
+            android:id="@+id/etFBURL"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/textview_background"
+            android:inputType="textPersonName"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="8dp"
+            android:hint="Facebook URL"
+            android:gravity="center_vertical"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textAllCaps="false" />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
