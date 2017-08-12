@@ -50,7 +50,8 @@ public class SimpleScannerActivity extends AppCompatActivity implements ZXingSca
     public void handleResult(final Result result) {
         String meCardString = result.getText();
         try {
-
+            MeCard meCard = MeCardParser.parse(meCardString);
+            String name = meCard.getName();
             Intent intent = new Intent(SimpleScannerActivity.this,ScannedResultActivity.class);
             intent.putExtra("qrDataResult",meCardString);
             startActivity(intent);
