@@ -1,4 +1,4 @@
-package tgo1014.projectx;
+package lost_and_found.projectx;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -13,8 +13,8 @@ import io.realm.Realm;
 import it.auron.library.mecard.MeCard;
 import it.auron.library.mecard.MeCardParser;
 import me.dm7.barcodescanner.zxing.ZXingScannerView;
-import tgo1014.projectx.Models.QRData;
-import tgo1014.projectx.Realm.RealmController;
+import lost_and_found.projectx.Models.QRData;
+import lost_and_found.projectx.Realm.RealmController;
 
 public class SimpleScannerActivity extends AppCompatActivity implements ZXingScannerView.ResultHandler {
 

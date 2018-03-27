@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#BFFF80"
-    tools:context="tgo1014.projectx.History.ScannedHistoryActivity">
+    tools:context="lost_and_found.projectx.History.ScannedHistoryActivity">
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler"
         android:layout_width="match_parent"

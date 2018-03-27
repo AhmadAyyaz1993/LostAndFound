@@ -1,12 +1,8 @@
-package tgo1014.projectx.History;
+package lost_and_found.projectx.History;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
@@ -18,8 +14,8 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-import tgo1014.projectx.Adapters.GridViewAdapter;
-import tgo1014.projectx.R;
+import lost_and_found.projectx.Adapters.GridViewAdapter;
+import lost_and_found.projectx.R;
 
 /**
  * Created by ahmad on 10/06/2017.

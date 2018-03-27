@@ -1,6 +1,5 @@
-package tgo1014.projectx.Models;
+package lost_and_found.projectx.Models;
 
-import io.realm.Realm;
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 

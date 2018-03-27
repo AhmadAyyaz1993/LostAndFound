@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-
+apply plugin: 'realm-android'
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.0"
@@ -10,6 +10,9 @@ android {
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
+        jackOptions {
+            enabled true
+        }
     }
     buildTypes {
         release {
@@ -17,9 +20,16 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
+
     compile fileTree(dir: 'libs', include: ['*.jar'])
     //QR Code
     //about lib
@@ -38,5 +48,7 @@ dependencies {
     compile 'it.auron:mecard-parser:1.0.9'
     compile 'me.dm7.barcodescanner:zxing:1.9.3'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:multidex:1.0.1'
+
     testCompile 'junit:junit:4.12'
 }

@@ -1,21 +1,14 @@
-package tgo1014.projectx;
+package lost_and_found.projectx;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.mikepenz.aboutlibraries.Libs;
-import com.mikepenz.aboutlibraries.LibsBuilder;
-
-import io.realm.Realm;
-import tgo1014.projectx.History.GeneratedQRCodesHistory;
-import tgo1014.projectx.History.ScannedHistoryActivity;
-import tgo1014.projectx.Realm.RealmController;
+import lost_and_found.projectx.History.GeneratedQRCodesHistory;
+import lost_and_found.projectx.History.ScannedHistoryActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 

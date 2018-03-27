@@ -1,4 +1,4 @@
-package tgo1014.projectx.Adapters;
+package lost_and_found.projectx.Adapters;
 
 import android.app.Activity;
 import android.content.Context;
@@ -14,15 +14,13 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import java.util.LinkedList;
 import java.util.List;
 
-import tgo1014.projectx.History.GeneratedQRCodesHistory;
-import tgo1014.projectx.Models.GeneratedQRCodes;
-import tgo1014.projectx.R;
-import tgo1014.projectx.Realm.RealmController;
-import tgo1014.projectx.ScannedResultActivity;
-import tgo1014.projectx.Utility.Utils;
+import lost_and_found.projectx.Models.GeneratedQRCodes;
+import lost_and_found.projectx.R;
+import lost_and_found.projectx.Realm.RealmController;
+import lost_and_found.projectx.ScannedResultActivity;
+import lost_and_found.projectx.Utility.Utils;
 
 /**
  * Created by ahmad on 10/06/2017.

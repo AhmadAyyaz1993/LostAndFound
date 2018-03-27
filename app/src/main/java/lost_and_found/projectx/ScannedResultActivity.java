@@ -1,20 +1,17 @@
-package tgo1014.projectx;
+package lost_and_found.projectx;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import io.realm.Realm;
 import it.auron.library.mecard.MeCard;
 import it.auron.library.mecard.MeCardParser;
-import tgo1014.projectx.Models.QRData;
-import tgo1014.projectx.Realm.RealmController;
+import lost_and_found.projectx.Models.QRData;
+import lost_and_found.projectx.Realm.RealmController;
 
 public class ScannedResultActivity extends AppCompatActivity {
 

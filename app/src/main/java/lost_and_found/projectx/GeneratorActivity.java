@@ -1,4 +1,4 @@
-package tgo1014.projectx;
+package lost_and_found.projectx;
 
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
@@ -24,9 +24,9 @@ import com.google.zxing.qrcode.QRCodeWriter;
 
 import io.realm.Realm;
 import it.auron.library.mecard.MeCard;
-import tgo1014.projectx.Models.GeneratedQRCodes;
-import tgo1014.projectx.Realm.RealmController;
-import tgo1014.projectx.Utility.Utils;
+import lost_and_found.projectx.Models.GeneratedQRCodes;
+import lost_and_found.projectx.Realm.RealmController;
+import lost_and_found.projectx.Utility.Utils;
 
 public class GeneratorActivity extends AppCompatActivity {
 

@@ -1,21 +1,17 @@
-package tgo1014.projectx.Adapters;
+package lost_and_found.projectx.Adapters;
 
 import android.content.Context;
-import android.content.DialogInterface;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import io.realm.Realm;
-import io.realm.RealmResults;
-import tgo1014.projectx.Models.QRData;
-import tgo1014.projectx.R;
-import tgo1014.projectx.Realm.RealmController;
+import lost_and_found.projectx.Models.QRData;
+import lost_and_found.projectx.R;
+import lost_and_found.projectx.Realm.RealmController;
 
 /**
  * Created by ahmad on 09/06/2017.

@@ -1,4 +1,4 @@
-package tgo1014.projectx.Adapters;
+package lost_and_found.projectx.Adapters;
 
 import android.support.v7.widget.RecyclerView;
 

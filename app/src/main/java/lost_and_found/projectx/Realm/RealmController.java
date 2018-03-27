@@ -1,4 +1,4 @@
-package tgo1014.projectx.Realm;
+package lost_and_found.projectx.Realm;
 
 import android.app.Activity;
 import android.app.Application;
@@ -6,8 +6,8 @@ import android.app.Fragment;
 
 import io.realm.Realm;
 import io.realm.RealmResults;
-import tgo1014.projectx.Models.GeneratedQRCodes;
-import tgo1014.projectx.Models.QRData;
+import lost_and_found.projectx.Models.GeneratedQRCodes;
+import lost_and_found.projectx.Models.QRData;
 
 /**
  * Created by ahmad on 09/06/2017.

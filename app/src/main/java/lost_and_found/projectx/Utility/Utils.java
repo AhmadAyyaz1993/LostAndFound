@@ -1,4 +1,4 @@
-package tgo1014.projectx.Utility;
+package lost_and_found.projectx.Utility;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,8 +8,6 @@ import android.os.Environment;
 import android.provider.MediaStore;
 import android.view.View;
 import android.widget.FrameLayout;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import java.io.ByteArrayOutputStream;

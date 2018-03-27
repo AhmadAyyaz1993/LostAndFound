@@ -1,6 +1,5 @@
-package tgo1014.projectx.App;
+package lost_and_found.projectx.App;
 
-import android.app.Application;
 import android.support.multidex.MultiDexApplication;
 
 import io.realm.Realm;

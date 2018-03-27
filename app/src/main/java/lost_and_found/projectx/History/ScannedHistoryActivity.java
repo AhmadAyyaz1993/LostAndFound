@@ -1,4 +1,4 @@
-package tgo1014.projectx.History;
+package lost_and_found.projectx.History;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,11 +8,11 @@ import android.view.LayoutInflater;
 
 import io.realm.Realm;
 import io.realm.RealmResults;
-import tgo1014.projectx.Adapters.QRDataAdapter;
-import tgo1014.projectx.Adapters.RealmQRDataAdapter;
-import tgo1014.projectx.Models.QRData;
-import tgo1014.projectx.R;
-import tgo1014.projectx.Realm.RealmController;
+import lost_and_found.projectx.Adapters.QRDataAdapter;
+import lost_and_found.projectx.Adapters.RealmQRDataAdapter;
+import lost_and_found.projectx.Models.QRData;
+import lost_and_found.projectx.R;
+import lost_and_found.projectx.Realm.RealmController;
 
 public class ScannedHistoryActivity extends AppCompatActivity {
     private QRDataAdapter adapter;

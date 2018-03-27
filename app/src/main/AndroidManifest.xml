@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="tgo1014.projectx">
+    package="lost_and_found.projectx">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -8,26 +8,26 @@
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
-        android:name=".App.CustomApplication"
+        android:name="lost_and_found.projectx.App.CustomApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GeneratorActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="lost_and_found.projectx.GeneratorActivity" />
+        <activity android:name="lost_and_found.projectx.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SimpleScannerActivity" />
-        <activity android:name=".History.ScannedHistoryActivity" />
+        <activity android:name="lost_and_found.projectx.SimpleScannerActivity" />
+        <activity android:name="lost_and_found.projectx.History.ScannedHistoryActivity" />
         <activity
-            android:name=".History.GeneratedQRCodesHistory"
+            android:name="lost_and_found.projectx.History.GeneratedQRCodesHistory"
             android:label="@string/app_name" />
-        <activity android:name=".ScannedResultActivity"></activity>
+        <activity android:name="lost_and_found.projectx.ScannedResultActivity"></activity>
     </application>
 
 </manifest>
