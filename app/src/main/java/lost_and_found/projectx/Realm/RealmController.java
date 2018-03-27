@@ -65,8 +65,8 @@ public class RealmController {
     public void clearAll() {
 
         realm.beginTransaction();
-        realm.clear(QRData.class);
-        realm.clear(GeneratedQRCodes.class);
+        realm.delete(QRData.class);
+        realm.delete(GeneratedQRCodes.class);
         realm.commitTransaction();
     }
 
@@ -96,7 +96,7 @@ public class RealmController {
     //check if Book.class is empty
     public boolean hasBooks() {
 
-        return !realm.allObjects(QRData.class).isEmpty();
+        return false;
     }
 
     //query example
